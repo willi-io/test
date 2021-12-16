@@ -4,5 +4,20 @@
     "namespace" : "willi.io.private",
     "version" : "1.0.0",
     "prettyFormat" : "willi.io.private:TestDevice:1.0.0"
+  },
+  "models": {
+    "vortolang" : "1.0",
+    "id": {
+      "name" : "TestDevice",
+      "namespace" : "willi.io.private",
+      "version" : "1.0.0",
+      "prettyFormat" : "willi.io.private:TestDevice:1.0.0"
+    }
+    "type" : "InformationModel",
+    "displayName" : "TestDevice",
+    "description" : "test description",
+    "modelType" : "Infomodel",
+    "references" : [],
+    "functionblocks" : []
   }
 }
