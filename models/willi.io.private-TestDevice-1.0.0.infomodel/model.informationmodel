@@ -1,21 +1,8 @@
 vortolang 1.0
-namespace com.bosch.iot.suite.example
+namespace willi.io.private
 version 1.0.0
-displayname "WilliTestDevice"
-description "Information model of a virtual demo device for the Bosch IoT Suite which you can open in your smartphone or web browser"
+displayname "TestDevice"
+description "test description"
 
-using com.bosch.iot.suite.example.octopussuiteedition.LED;1.0.0
-using com.bosch.iot.suite.example.octopussuiteedition.Magnetometer;1.1.0
-using com.bosch.iot.suite.example.Switch;1.0.0
-using com.bosch.iot.suite.example.Display;1.0.0
-using com.bosch.iot.suite.example.LedLamp;1.0.0
-
-infomodel WilliTestDevice {
-
-	functionblocks {
-	    mandatory compass as Magnetometer "a compass that uses the sensor in a smartphone or which is set manually in a browser"
-	    mandatory switch as Switch "a switch that can be turned on and off"
-	    mandatory led as LedLamp  "a led wich you can control with the setColor() operation"
-	    mandatory display as Display "a display which shows the text that you set with the setText() operation"
-	}
+infomodel TestDevice {
 }
