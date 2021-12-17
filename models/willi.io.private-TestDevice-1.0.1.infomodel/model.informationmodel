@@ -1,0 +1,8 @@
+vortolang 1.0
+namespace willi.io.private
+version 1.0.1
+displayname "TestDevice"
+description "test description"
+
+infomodel TestDevice {
+}
